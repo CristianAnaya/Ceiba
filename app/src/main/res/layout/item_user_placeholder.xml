@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+
+
+        <View
+            android:id="@+id/name"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_17sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:background="@drawable/bg_strip_round"/>
+
+        <View
+            android:id="@+id/phone"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_130sdp"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_strip_round"/>
+
+        <View
+            android:id="@+id/email"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_130sdp"
+            android:layout_below="@+id/phone"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_strip_round"/>
+
+        <View
+            android:id="@+id/btn"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_below="@+id/email"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_strip_round" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
